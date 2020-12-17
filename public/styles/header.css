@@ -1,16 +1,17 @@
 header.header-profile {
   height: 400px;
   width: 100%;
-  color: #ffffff;
-  font-size: 40px;
-  align-items: center
-  justify-content: center
-  background-color: #990500;
-  background-image: url("https://www.transparenttextures.com/patterns/3px-tile.png");
   display: flex;
   flex-direction: column;
+  align-items: center;
+  background-color: #777a88;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  font-size: 36px;
+  color: #ffffff;
 }
 
 header.profile-image {
-  align-items: center
+  display: flex;
+  align-items: center;
 }
+
