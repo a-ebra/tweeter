@@ -55,7 +55,7 @@ const renderTweets = function(tweets) {
   $('.tweets').empty();
   for (const tweet of tweets) {
     const $tweet = createTweetElement(tweet);
-    $('.tweets').append($tweet)
+    $('.tweets').prepend($tweet)
   }
 };
 
@@ -79,13 +79,13 @@ $(document).ready(function() {
     const maxChars = 140;
 
     if (tweetText === '') {
-      $('.error p').replaceWith(`<p>"⚠ Please enter a value."</p>`);
+      $('.error p').replaceWith(`<p>⚠ Please enter a value.</p>`);
     } else if (tweetText.length > maxChars) {
-      $('.error p').replaceWith(`<p>"⚠ Your tweet contains too many characters.`);
+      $('.error p').replaceWith(`<p>⚠ Your tweet contains too many characters.`);
     } else {
       $.ajax ({method: 'POST', url: '/tweets', data: $(this).serialize()})
       .then(() => 
-        {loadTweets();
+        {loadTweets(); $('.counter').val(maxChars); $('.new-tweet textarea').val('')
       });
     }
   });
