@@ -1,15 +1,18 @@
 $(document).ready(function() {
 
   $("#tweet-text").on("keyup", function(event) {
-    const maxChars = 140;
-    let counter = $("#counter");
-    let currentChars = this.value.length;
-    let remainingChars = maxChars - currentChars;
-    if (remainingChars <= 0) {
-      counter.style.color = "red";
-      event.preventDefault();
+    console.log('hello')
+    const $maxChars = 140;
+    console.log($maxChars)
+    let $counter = $(".counter");
+    let $currentChars = $(this).val().length;
+    let $remainingChars = $maxChars - $currentChars;
+    console.log($remainingChars)
+    $counter.val($remainingChars)
+    if ($remainingChars <= 0) {
+      $counter.css("color", "red")
     } else {
-      counter.style.color = "#545149";
+      $counter.css("color", "black")
     }
   });
 });
