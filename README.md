@@ -10,13 +10,13 @@ This repository is the starter code for the project: Students will fork and clon
 - Responsive design for mobile and desktops
 
 ## Screenshots 
-- Mobile view: 
+
 !["Mobile View"](https://github.com/a-ebra/tweeter/blob/master/public/images/tweeter-%20mobile%20view.png)
-- Hover:
+
 !["Hover"](https://github.com/a-ebra/tweeter/blob/master/public/images/Tweeter%20-%20hover.png)
-- Error example: 
+ 
 !["Error example"](https://github.com/a-ebra/tweeter/blob/master/public/images/Tweeter%20-%20error.png)
-- Desktop view (1024px minimum)
+
 !["Desktop view (1024px minimum"](https://github.com/a-ebra/tweeter/blob/master/public/images/tweeter%20-%201024%20px.png)
 
 ## Getting Started
