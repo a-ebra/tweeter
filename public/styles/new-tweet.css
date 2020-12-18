@@ -4,10 +4,12 @@
   justify-content: space-between;
   display: flex;
   padding-top: 1.5em;
+  padding-bottom: 1.5em;
+
 }
 
 button {
-  background-color: #4056a1;
+  background-color: #00610d;
   font-family: 'Bungee', cursive;
   color: #ffffff;
 }
@@ -32,4 +34,15 @@ button {
 
 .counter {
   font-family: 'Bungee', cursive;
+}
+
+#error {
+  display: flex;
+  width: 100%;
+}
+
+.error p {
+  text-align: center;
+  width: 90%;
+  color: #ff0000;
 }

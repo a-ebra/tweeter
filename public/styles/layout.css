@@ -14,17 +14,19 @@ html {
  * Global layout stuff
  */
 
-body {
-  font-family: 'Source Sans Pro', sans-serif
-  font-size: 24px;
+ body {
   color: #545149;
   background-color: #f4f1ec;
+  background-image: url("https://www.transparenttextures.com/patterns/concrete-wall.png");
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-body.container {
+main {
   width: 90%; 
   background-color: #f4f1ec;
   align-items: center;
+  margin: auto; 
 }
 
 /*
